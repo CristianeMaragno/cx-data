@@ -29,9 +29,9 @@ const Home: NextPage = () => {
           </div>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8 justify-center">
             <div
-              className="flex max-w-xs flex-col gap-4 rounded-xl bg-gray/100 p-4 text-grey hover:bg-gray/200 justify-center"
+              className="flex max-w-xl flex-col gap-4 rounded-xl bg-gray/100 p-4 text-grey hover:bg-gray/200 justify-center"
             >
-              <div className="text-2xl font-mono">
+              <div className="impacto-text text-3xl font-mono">
                 <strong>Reter</strong> seus clientes pode ser <strong>simples</strong> com <strong>inteligência</strong>
               </div>
 
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
             </div>
 
             <div
-              className="flex max-w-xs flex-col gap-4 rounded-xl"
+              className="flex w-full flex-col gap-4 rounded-xl"
             >
               <Image
                 src={Dashboard}
@@ -55,7 +55,7 @@ const Home: NextPage = () => {
 
           <div className="grid grid-cols-2 gap-1 sm:grid-cols-2 md:gap-3">
             <div
-              className="flex max-w-xs flex-col gap-4 rounded-xl p-4 text-grey"
+              className="flex max-w-lg flex-col gap-4 rounded-xl p-4 text-grey"
             >
               <Image
                 src={Image1}
@@ -67,12 +67,12 @@ const Home: NextPage = () => {
             </div>
 
             <div
-              className="flex max-w-xs flex-col gap-4 rounded-xl p-4 text-grey"
+              className="justify-center flex max-w-lg flex-col gap-4 rounded-xl p-4 text-grey"
             >
               <div className="text-md label-feature font-bold text-center">
                 Dados
               </div>
-              <div>
+              <div className="text-center">
                 Com o CXdata você mapeia os pontos essenciais da jornada do cliente no seu produto e identifica o potencial da sua carteira
               </div>
               
@@ -81,19 +81,19 @@ const Home: NextPage = () => {
 
           <div className="grid grid-cols-2 gap-1 sm:grid-cols-2 md:gap-3">
             <div
-              className="flex max-w-xs flex-col gap-4 rounded-xl p-4 text-grey"
+              className="justify-center flex max-w-lg flex-col gap-4 rounded-xl p-4 text-grey"
             >
               <div className="text-md label-feature font-bold text-center">
                 Experiência segmentada
               </div>
-              <div>
+              <div className="text-center">
                 Amplie sua visão de experiência do cliente. Segmente suas métricas e análises de acordo com o perfil do seu cliente
               </div>
               
             </div>
 
             <div
-              className="flex max-w-xs flex-col gap-4 rounded-xl p-4 text-grey"
+              className="flex max-w-lg flex-col gap-4 rounded-xl p-4 text-grey"
             >
               <Image
                 src={Image2}
@@ -107,7 +107,7 @@ const Home: NextPage = () => {
 
           <div className="grid grid-cols-2 gap-1 sm:grid-cols-2 md:gap-3">
             <div
-              className="flex max-w-xs flex-col gap-4 rounded-xl p-4 text-grey"
+              className="flex max-w-lg flex-col gap-4 rounded-xl p-4 text-grey"
             >
               <Image
                 src={Image3}
@@ -119,19 +119,19 @@ const Home: NextPage = () => {
             </div>
 
             <div
-              className="flex max-w-xs flex-col gap-4 rounded-xl p-4 text-grey"
+              className="justify-center flex max-w-lg flex-col gap-4 rounded-xl p-4 text-grey"
             >
               <div className="text-md label-feature font-bold text-center">
                 Prevenção
               </div>
-              <div>
+              <div className="text-center">
                 Direcione o seu atendimento à quem precisa de atenção utilizando a inteligência de alertas de cancelamentos
               </div>
             </div>
           </div>
 
           <div className="items-center justify-center text-center">
-            <div className="text-lg text-white font-mono">
+            <div className="text-xl font-bold text-white font-mono">
               Entre em contato e agende uma conversa
             </div>
             <Link target="_blank" href="https://grabify.link/KTMPTF">
