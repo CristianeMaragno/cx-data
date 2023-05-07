@@ -11,8 +11,18 @@ generator client {
   provider = "prisma-client-js"
 }
 
-model Example {
+model Contato {
     id        String   @id @default(cuid())
+    email     String
+    phone     String
+    opinion   String
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
+}
+
+model Logs {
+    id         String   @id @default(cuid())
+    createdAt  DateTime @default(now())
+    action     String
+    identifier String
 }
